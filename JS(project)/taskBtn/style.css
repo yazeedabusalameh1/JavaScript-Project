@@ -1,0 +1,19 @@
+.btn{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: none;
+    cursor: pointer;
+
+
+}
+body{
+    height: 5000px;
+    width: 5000px;
+}

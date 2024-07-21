@@ -1,0 +1,73 @@
+.container{
+ 
+    width: calc(100% -40);
+
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    
+}
+.tasks{
+    display: inline;
+    align-items: center;
+    padding: 10px;
+    
+
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tasks .task:not(:last-child){
+    margin-bottom: 15px;
+}
+.tasks .task:hover{
+    background-color: #f7f7f7;
+
+}
+.tasks .task.done{
+    opacity: 0.5;
+}
+.add{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: orange;
+    color: white;
+    padding: 2px 6px;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    border: none;
+    border-radius: 3px;
+    
+}
+.del{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+.delAll{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    cursor: pointer;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+}
+
